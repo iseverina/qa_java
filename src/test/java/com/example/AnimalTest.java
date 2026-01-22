@@ -1,8 +1,11 @@
 package com.example;
+
 import org.junit.Assert;
 import org.junit.Test;
+
 import java.util.Arrays;
 import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
@@ -40,6 +43,7 @@ public class AnimalTest {
             }
         }
     }
+
     @Test
     public void getSpecies() {
         Animal animal = new Animal();

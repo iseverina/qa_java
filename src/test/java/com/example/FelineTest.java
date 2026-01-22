@@ -26,7 +26,7 @@ public class FelineTest {
     }
 
     @Test
-    public void  eatMeatPredator() throws Exception {
+    public void eatMeatPredator() throws Exception {
         Feline feline = new Feline();
         List<String> actual = feline.eatMeat();
         List<String> expected = Arrays.asList("Животные", "Птицы", "Рыба");

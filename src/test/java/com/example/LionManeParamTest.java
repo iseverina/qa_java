@@ -30,10 +30,10 @@ public class LionManeParamTest {
     }
 
     @Test
-        public void doesHaveManeExpectedValue() throws Exception {
-            Feline felineMock = Mockito.mock(Feline.class);
-            Lion lion = new Lion(sex, felineMock);
-            boolean actual = lion.doesHaveMane();
-            Assert.assertEquals(expectedHasMane, actual);
-        }
+    public void doesHaveManeExpectedValue() throws Exception {
+        Feline felineMock = Mockito.mock(Feline.class);
+        Lion lion = new Lion(sex, felineMock);
+        boolean actual = lion.doesHaveMane();
+        Assert.assertEquals(expectedHasMane, actual);
     }
+}

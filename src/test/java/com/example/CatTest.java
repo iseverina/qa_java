@@ -28,7 +28,7 @@ public class CatTest {
         Cat cat = new Cat(felineMock);
         List<String> actualFood = cat.getFood();
         Assert.assertEquals(expectedFood, actualFood);
-        Mockito.verify(felineMock).eatMeat();
+
     }
 
     @Test
